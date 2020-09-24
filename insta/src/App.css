@@ -1,0 +1,82 @@
+.app{
+  margin: 0;
+  background-color: #fafafa;
+}
+.app_header{
+background-color: white;
+border: 1px solid lightgray;
+margin-bottom: 20px;
+object-fit: contain;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0;
+z-index: 1;
+}
+.logo{
+  padding:20px;
+  object-fit: contain;
+}
+.app_signup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app_posts{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app_postsright{
+  margin-left: 10px;
+}
+
+.app_signin{
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.textbetween{
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+
+@media  screen and (max-width: 1025px)
+{
+  .app_postsright{
+    display: none;
+  }
+  .app_postsleft{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .textbetween{
+    display: none;
+  }
+ 
+}
+
+.foot{
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  font-family: cursive;
+  padding-left: 5px;
+  border:1px solid lightgray
+}
+
+
+.link{
+ font-family: cursive;
+ font-size: 15px;
+ font-weight: 700;
+ margin: 0 auto;
+}

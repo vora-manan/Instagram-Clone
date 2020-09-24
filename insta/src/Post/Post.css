@@ -1,0 +1,89 @@
+.post{
+     background-color: white;
+    border:1px solid lightgray;
+    max-width: 500px;
+    margin-bottom: 45px;
+}
+.post_header{
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.post_image{
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.caption{
+    margin-left: 10px;
+    font-weight: normal;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.post_commentBox{
+    display: flex;
+    margin:0 10px;
+
+}
+.post_input{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+.post_button{
+    flex:0;
+    border: none;
+    color: black;
+    background-color: transparent;
+    border-top: 1px solid lightgray;
+    cursor: pointer;
+}
+.post_comments{
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.username{
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.delete{
+    background-color:transparent;
+    color:black;
+    cursor: pointer;
+    border: 1px solid white;
+    font-family: cursive;
+    font-weight: bold;
+
+    
+}
+.deletebutton{
+    text-align: center;
+    margin-left:auto
+}
+.comment_button{
+    background-color:transparent;
+    color:black;
+    cursor: pointer;
+    border: 1px solid white;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+.comment_align{
+    display: flex;
+    
+}
+.comment_align p{
+    flex: 1;
+}
